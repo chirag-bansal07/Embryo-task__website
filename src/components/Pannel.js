@@ -1,4 +1,4 @@
-
+import './pannel.css';
 import dhruv from '..//images/Pannel/dhruv_shah.jpeg';
 import Pratyush from '..//images/Pannel/pratyush.jpeg';
 import Rahul from '..//images/Pannel/rahul.png';

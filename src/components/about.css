@@ -1,0 +1,21 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+.heading__about{
+    font-size: 45px;
+    margin-top: 150px;
+}
+.about__content{
+    line-height: 35px;
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top: 10px;
+}
+.about__content-title{
+    font-size: 18px;
+    margin-top: 50px;
+}

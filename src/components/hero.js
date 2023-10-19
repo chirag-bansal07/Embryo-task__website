@@ -16,7 +16,7 @@ function Hero(){
     <div className='home-hero__heading'>
       <h1>BITS Embryo</h1>
     </div>
-    <div>
+    <div className='home-hero__para'>
       <p>BITS Embryo is an Institute body that aims to improve students' learning experience and exposure to various domains. We, at BITS Embryo, believe in
          'Borderless Classrooms & Bottomless Resources'. We are an enthusiastic closely-knit group that is responsible for organising talks by distinguished 
           professionals, in their respective fields, for the benefit of the students. Embryo is a project to foster strong collaboration of BITS students and BITS
