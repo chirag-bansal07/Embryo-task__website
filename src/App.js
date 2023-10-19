@@ -5,6 +5,7 @@ import Team from './components/Team';
 import Lectures from './components/Lectures';
 import APOGEE from './components/Apogee';
 import Pannel from './components/Pannel';
+import Contact from './components/contact';
 import './App.css';
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <Pannel />
       <APOGEE />
       <Team />
+      <Contact/>
+      
     </div>
   );
 }

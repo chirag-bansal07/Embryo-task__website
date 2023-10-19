@@ -1,3 +1,4 @@
+import './Apogee.css'
 import ge from'..//images/partners/ge.png'
 import rr from '..//images/partners/RR.png'
 import SE from '..//images/partners/SE.png'
@@ -14,11 +15,11 @@ function APOGEE(){
           <h2>APOGEE Innovation Challenge</h2>
           <p>Apogee Innovation Challenge is a kernel event of Apogee, which provides a platform for students from different colleges of the country to work on the real life problem statements posed by companies. But how does it work?</p>
           <div>
-            <l>Problem Statement Released By Companies</l>
-            <l>Students Form Teams Of 1 To 3 Members</l>
-            <l>Teams Select Problem Statements And Start Working On It. They Have To Submit The Solution Before The Specified Deadline</l>
-            <l>Judges From Companies Select Top 5 Teams</l>
-            <l>Winners Are Usually Rewarded In Terms Of Cash Prizes, Internships Or Goodies</l>
+            <li>Problem Statement Released By Companies</li>
+            <li>Students Form Teams Of 1 To 3 Members</li>
+            <li>Teams Select Problem Statements And Start Working On It. They Have To Submit The Solution Before The Specified Deadline</li>
+            <li>Judges From Companies Select Top 5 Teams</li>
+            <li>Winners Are Usually Rewarded In Terms Of Cash Prizes, Internships Or Goodies</li>
           </div>
         </div>
         <div className='partcipate'>
@@ -29,15 +30,15 @@ function APOGEE(){
             <l>Being One Of The Major Events Of Apogee And A Unique Concept, This Event Would Get Wide Media Coverages From Leading Media Sources In India.</l>
           </div>
           </div>
-          <div>
+          <div className='Apogee_partner'>
             <h2>Previous Partners</h2>
             <p>These companies have associated with APOGEE as Industrial Partner in the past:</p>
-            <div>
-              <img src={rr} alt='Rolls-royce' />
-              <img src={SE} alt='SCNEIDER-ELECTRIC' />
-              <img src={zulip} alt='ZULIP' />
-              <img src={ge} alt='GE HEALTHCARE' />
-              <img src={xanadu} alt='XANADU'/>
+            <div className='Apogee__partner-img'>
+              <img className='partner_img' src={rr} alt='Rolls-royce' />
+              <img className='partner_img' src={SE} alt='SCNEIDER-ELECTRIC' />
+              <img className='partner_img' src={zulip} alt='ZULIP' />
+              <img className='partner_img' src={ge} alt='GE HEALTHCARE' />
+              <img className='partner_img' src={xanadu} alt='XANADU'/>
             </div>
           </div>
         </div>
